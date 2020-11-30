@@ -13,15 +13,19 @@ class ArticlesController < ApplicationController
   def edit
   end
 
-  def create
-    @article = Article.new(article_params)
-    if @article.save
-      flash[:notice] = "Article was created successfully."
-      redirect_to @article
-    else
-      render 'new'
-    end
+  def create 
+    @article = Article.new(article_params) 
+    @article.user = User.first # <--- Add this line
+    if @article.save 
+      flash[:notice] = "Article was created successfully." 
+      redirect_to @article 
+    else 
+      render 'new' 
+    end 
   end
+  
+  
+  
 
   def update
     if @article.update(article_params)
