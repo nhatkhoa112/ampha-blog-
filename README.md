@@ -2,8 +2,18 @@ This is Test repo on the Complete Ruby on Rails Developer by Khoa Nguyen Nhat
 
 Pre-work - Rails blog for Udemy
 
-Rails blog for Udemy is a Ruby on Rails ampha blog.
+## User Stories
+This is my amphablog which was built to learn RoR.
 
-Submitted by: Nguyen Nhat Khoa 
+## User Stories
+The following **required** functionality is completed:
+- [X] User can create acount.
+- [X] User can manager your profile, add avatar with gravatar.
+- [x] User can create the article with title and decription and manger them.
+- [X] User can view another Bloggers and their article.
+
+## Video Walkthrough
+
+
 
 url: http://enigmatic-dawn-31293.herokuapp.com
