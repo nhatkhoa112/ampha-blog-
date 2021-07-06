@@ -16,4 +16,4 @@ The following **required** functionality is completed:
 
 
 
-url: http://enigmatic-dawn-31293.herokuapp.com
+url: http://ampha-blog-ror.herokuapp.com
